@@ -1,0 +1,12 @@
+﻿<Application x:Class="Application"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:TranslationAssistant"
+    StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <Style x:Key="WindowsStyle" TargetType="{x:Type Window}">
+            <Setter Property="FontFamily" Value="Lucida Sans Unicode"/>
+            <Setter Property="FontSize" Value="12"/>
+        </Style>
+    </Application.Resources>
+</Application>

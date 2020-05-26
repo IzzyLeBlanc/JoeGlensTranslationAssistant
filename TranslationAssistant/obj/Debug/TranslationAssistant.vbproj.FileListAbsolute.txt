@@ -1,0 +1,91 @@
+C:\Users\Marie\Google Drive\T-Ass\TranslationAssistant\TranslationAssistant\bin\Debug\TranslationAssistant.exe.config
+C:\Users\Marie\Google Drive\T-Ass\TranslationAssistant\TranslationAssistant\bin\Debug\TranslationAssistant.exe
+C:\Users\Marie\Google Drive\T-Ass\TranslationAssistant\TranslationAssistant\bin\Debug\TranslationAssistant.pdb
+C:\Users\Marie\Google Drive\T-Ass\TranslationAssistant\TranslationAssistant\bin\Debug\TranslationAssistant.xml
+C:\Users\Marie\Google Drive\T-Ass\TranslationAssistant\TranslationAssistant\obj\Debug\TranslationAssistant.vbprojResolveAssemblyReference.cache
+C:\Users\Marie\Google Drive\T-Ass\TranslationAssistant\TranslationAssistant\obj\Debug\MainWindow.g.vb
+C:\Users\Marie\Google Drive\T-Ass\TranslationAssistant\TranslationAssistant\obj\Debug\Application.g.vb
+C:\Users\Marie\Google Drive\T-Ass\TranslationAssistant\TranslationAssistant\obj\Debug\TranslationAssistant_MarkupCompile.cache
+C:\Users\Marie\Google Drive\T-Ass\TranslationAssistant\TranslationAssistant\obj\Debug\TranslationAssistant_MarkupCompile.lref
+C:\Users\Marie\Google Drive\T-Ass\TranslationAssistant\TranslationAssistant\obj\Debug\MainWindow.baml
+C:\Users\Marie\Google Drive\T-Ass\TranslationAssistant\TranslationAssistant\obj\Debug\TranslationAssistant.g.resources
+C:\Users\Marie\Google Drive\T-Ass\TranslationAssistant\TranslationAssistant\obj\Debug\TranslationAssistant.Resources.resources
+C:\Users\Marie\Google Drive\T-Ass\TranslationAssistant\TranslationAssistant\obj\Debug\TranslationAssistant.vbproj.GenerateResource.Cache
+C:\Users\Marie\Google Drive\T-Ass\TranslationAssistant\TranslationAssistant\obj\Debug\TranslationAssistant.exe
+C:\Users\Marie\Google Drive\T-Ass\TranslationAssistant\TranslationAssistant\obj\Debug\TranslationAssistant.xml
+C:\Users\Marie\Google Drive\T-Ass\TranslationAssistant\TranslationAssistant\obj\Debug\TranslationAssistant.pdb
+C:\Users\Marie\Google Drive\T-Ass\TranslationAssistant\TranslationAssistant\obj\Debug\frmProfile.baml
+C:\Users\Marie\Google Drive\T-Ass\TranslationAssistant\TranslationAssistant\obj\Debug\frmNew.baml
+C:\Users\Marie\Google Drive\T-Ass\TranslationAssistant\TranslationAssistant\obj\Debug\frmProfileName.baml
+C:\Users\Marie\Google Drive\T-Ass\TranslationAssistant\TranslationAssistant\obj\Debug\frmPhrase.baml
+C:\Users\Marie\Google Drive\T-Ass\TranslationAssistant\TranslationAssistant\obj\Debug\frmProfile.g.vb
+C:\Users\Marie\Google Drive\T-Ass\TranslationAssistant\TranslationAssistant\obj\Debug\frmNew.g.vb
+C:\Users\Marie\Google Drive\T-Ass\TranslationAssistant\TranslationAssistant\obj\Debug\frmProfileName.g.vb
+C:\Users\Marie\Google Drive\T-Ass\TranslationAssistant\TranslationAssistant\obj\Debug\frmPhrase.g.vb
+C:\Users\Marie\Google Drive\T-Ass\TranslationAssistant\TranslationAssistant\obj\Debug\Application.baml
+C:\Users\Marie\Google Drive\T-Ass\TranslationAssistant\TranslationAssistant\bin\Debug\TranslationAssistant.exe.manifest
+C:\Users\Marie\Google Drive\T-Ass\TranslationAssistant\TranslationAssistant\bin\Debug\TranslationAssistant.application
+C:\Users\Marie\Google Drive\T-Ass\TranslationAssistant\TranslationAssistant\obj\Debug\TranslationAssistant.TrustInfo.xml
+C:\Users\Marie\Google Drive\T-Ass\TranslationAssistant\TranslationAssistant\obj\Debug\TranslationAssistant.exe.manifest
+C:\Users\Marie\Google Drive\T-Ass\TranslationAssistant\TranslationAssistant\obj\Debug\TranslationAssistant.application
+C:\Users\Joe\Google Drive\T-Ass\TranslationAssistant\TranslationAssistant\bin\Debug\TranslationAssistant.exe.config
+C:\Users\Joe\Google Drive\T-Ass\TranslationAssistant\TranslationAssistant\bin\Debug\TranslationAssistant.exe.manifest
+C:\Users\Joe\Google Drive\T-Ass\TranslationAssistant\TranslationAssistant\bin\Debug\TranslationAssistant.application
+C:\Users\Joe\Google Drive\T-Ass\TranslationAssistant\TranslationAssistant\bin\Debug\TranslationAssistant.exe
+C:\Users\Joe\Google Drive\T-Ass\TranslationAssistant\TranslationAssistant\bin\Debug\TranslationAssistant.pdb
+C:\Users\Joe\Google Drive\T-Ass\TranslationAssistant\TranslationAssistant\bin\Debug\TranslationAssistant.xml
+C:\Users\Joe\Google Drive\T-Ass\TranslationAssistant\TranslationAssistant\obj\Debug\TranslationAssistant.vbprojResolveAssemblyReference.cache
+C:\Users\Joe\Google Drive\T-Ass\TranslationAssistant\TranslationAssistant\obj\Debug\frmProfile.baml
+C:\Users\Joe\Google Drive\T-Ass\TranslationAssistant\TranslationAssistant\obj\Debug\frmNew.baml
+C:\Users\Joe\Google Drive\T-Ass\TranslationAssistant\TranslationAssistant\obj\Debug\frmProfileName.baml
+C:\Users\Joe\Google Drive\T-Ass\TranslationAssistant\TranslationAssistant\obj\Debug\frmPhrase.baml
+C:\Users\Joe\Google Drive\T-Ass\TranslationAssistant\TranslationAssistant\obj\Debug\frmProfile.g.vb
+C:\Users\Joe\Google Drive\T-Ass\TranslationAssistant\TranslationAssistant\obj\Debug\MainWindow.g.vb
+C:\Users\Joe\Google Drive\T-Ass\TranslationAssistant\TranslationAssistant\obj\Debug\frmNew.g.vb
+C:\Users\Joe\Google Drive\T-Ass\TranslationAssistant\TranslationAssistant\obj\Debug\frmProfileName.g.vb
+C:\Users\Joe\Google Drive\T-Ass\TranslationAssistant\TranslationAssistant\obj\Debug\frmPhrase.g.vb
+C:\Users\Joe\Google Drive\T-Ass\TranslationAssistant\TranslationAssistant\obj\Debug\Application.g.vb
+C:\Users\Joe\Google Drive\T-Ass\TranslationAssistant\TranslationAssistant\obj\Debug\TranslationAssistant_MarkupCompile.cache
+C:\Users\Joe\Google Drive\T-Ass\TranslationAssistant\TranslationAssistant\obj\Debug\TranslationAssistant_MarkupCompile.lref
+C:\Users\Joe\Google Drive\T-Ass\TranslationAssistant\TranslationAssistant\obj\Debug\Application.baml
+C:\Users\Joe\Google Drive\T-Ass\TranslationAssistant\TranslationAssistant\obj\Debug\MainWindow.baml
+C:\Users\Joe\Google Drive\T-Ass\TranslationAssistant\TranslationAssistant\obj\Debug\TranslationAssistant.g.resources
+C:\Users\Joe\Google Drive\T-Ass\TranslationAssistant\TranslationAssistant\obj\Debug\TranslationAssistant.Resources.resources
+C:\Users\Joe\Google Drive\T-Ass\TranslationAssistant\TranslationAssistant\obj\Debug\TranslationAssistant.vbproj.GenerateResource.Cache
+C:\Users\Joe\Google Drive\T-Ass\TranslationAssistant\TranslationAssistant\obj\Debug\TranslationAssistant.TrustInfo.xml
+C:\Users\Joe\Google Drive\T-Ass\TranslationAssistant\TranslationAssistant\obj\Debug\TranslationAssistant.exe.manifest
+C:\Users\Joe\Google Drive\T-Ass\TranslationAssistant\TranslationAssistant\obj\Debug\TranslationAssistant.application
+C:\Users\Joe\Google Drive\T-Ass\TranslationAssistant\TranslationAssistant\obj\Debug\TranslationAssistant.exe
+C:\Users\Joe\Google Drive\T-Ass\TranslationAssistant\TranslationAssistant\obj\Debug\TranslationAssistant.xml
+C:\Users\Joe\Google Drive\T-Ass\TranslationAssistant\TranslationAssistant\obj\Debug\TranslationAssistant.pdb
+D:\Downloads\TranslationAssistant 3.0 source\TranslationAssistant\TranslationAssistant\obj\Debug\TranslationAssistant.vbprojAssemblyReference.cache
+D:\Downloads\TranslationAssistant 3.0 source\TranslationAssistant\TranslationAssistant\obj\Debug\frmProfile.baml
+D:\Downloads\TranslationAssistant 3.0 source\TranslationAssistant\TranslationAssistant\obj\Debug\frmNew.baml
+D:\Downloads\TranslationAssistant 3.0 source\TranslationAssistant\TranslationAssistant\obj\Debug\frmProfileName.baml
+D:\Downloads\TranslationAssistant 3.0 source\TranslationAssistant\TranslationAssistant\obj\Debug\frmPhrase.baml
+D:\Downloads\TranslationAssistant 3.0 source\TranslationAssistant\TranslationAssistant\obj\Debug\frmProfile.g.vb
+D:\Downloads\TranslationAssistant 3.0 source\TranslationAssistant\TranslationAssistant\obj\Debug\MainWindow.g.vb
+D:\Downloads\TranslationAssistant 3.0 source\TranslationAssistant\TranslationAssistant\obj\Debug\frmNew.g.vb
+D:\Downloads\TranslationAssistant 3.0 source\TranslationAssistant\TranslationAssistant\obj\Debug\frmProfileName.g.vb
+D:\Downloads\TranslationAssistant 3.0 source\TranslationAssistant\TranslationAssistant\obj\Debug\frmPhrase.g.vb
+D:\Downloads\TranslationAssistant 3.0 source\TranslationAssistant\TranslationAssistant\obj\Debug\Application.g.vb
+D:\Downloads\TranslationAssistant 3.0 source\TranslationAssistant\TranslationAssistant\obj\Debug\TranslationAssistant_MarkupCompile.cache
+D:\Downloads\TranslationAssistant 3.0 source\TranslationAssistant\TranslationAssistant\obj\Debug\TranslationAssistant_MarkupCompile.lref
+D:\Downloads\TranslationAssistant 3.0 source\TranslationAssistant\TranslationAssistant\obj\Debug\TranslationAssistant.exe
+D:\Downloads\TranslationAssistant 3.0 source\TranslationAssistant\TranslationAssistant\obj\Debug\TranslationAssistant.xml
+D:\Downloads\TranslationAssistant 3.0 source\TranslationAssistant\TranslationAssistant\obj\Debug\TranslationAssistant.pdb
+D:\Downloads\TranslationAssistant 3.0 source\TranslationAssistant\TranslationAssistant\obj\Debug\Application.baml
+D:\Downloads\TranslationAssistant 3.0 source\TranslationAssistant\TranslationAssistant\obj\Debug\MainWindow.baml
+D:\Downloads\TranslationAssistant 3.0 source\TranslationAssistant\TranslationAssistant\obj\Debug\TranslationAssistant.g.resources
+D:\Downloads\TranslationAssistant 3.0 source\TranslationAssistant\TranslationAssistant\obj\Debug\TranslationAssistant.Resources.resources
+D:\Downloads\TranslationAssistant 3.0 source\TranslationAssistant\TranslationAssistant\obj\Debug\TranslationAssistant.vbproj.GenerateResource.cache
+D:\Downloads\TranslationAssistant 3.0 source\TranslationAssistant\TranslationAssistant\obj\Debug\TranslationAssistant.vbproj.CoreCompileInputs.cache
+D:\Downloads\TranslationAssistant 3.0 source\TranslationAssistant\TranslationAssistant\obj\Debug\TranslationAssistant.TrustInfo.xml
+D:\Downloads\TranslationAssistant 3.0 source\TranslationAssistant\TranslationAssistant\bin\Debug\TranslationAssistant.exe.config
+D:\Downloads\TranslationAssistant 3.0 source\TranslationAssistant\TranslationAssistant\bin\Debug\TranslationAssistant.exe.manifest
+D:\Downloads\TranslationAssistant 3.0 source\TranslationAssistant\TranslationAssistant\bin\Debug\TranslationAssistant.application
+D:\Downloads\TranslationAssistant 3.0 source\TranslationAssistant\TranslationAssistant\bin\Debug\TranslationAssistant.exe
+D:\Downloads\TranslationAssistant 3.0 source\TranslationAssistant\TranslationAssistant\bin\Debug\TranslationAssistant.pdb
+D:\Downloads\TranslationAssistant 3.0 source\TranslationAssistant\TranslationAssistant\bin\Debug\TranslationAssistant.xml
+D:\Downloads\TranslationAssistant 3.0 source\TranslationAssistant\TranslationAssistant\obj\Debug\TranslationAssistant.exe.manifest
+D:\Downloads\TranslationAssistant 3.0 source\TranslationAssistant\TranslationAssistant\obj\Debug\TranslationAssistant.application

@@ -1,0 +1,14 @@
+﻿<Window x:Class="frmProfileName"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Enter New Profile Name" Height="104.511" Width="406.521" WindowStartupLocation="CenterOwner" ResizeMode="NoResize" ShowInTaskbar="False"
+                FontFamily="Lucida Sans Unicode"
+        FontSize="11.5"  WindowStyle="ToolWindow" >
+    <Grid Height="68" VerticalAlignment="Top" Margin="0,0,0,-1">
+        <Label Content="Profile Name" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtName" HorizontalAlignment="Left" Height="23" Margin="101,12,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="273" TextOptions.TextFormattingMode="Display"/>
+        <Button x:Name="btnOK" Content="OK" HorizontalAlignment="Left" Height="20" Margin="116,40,0,0" VerticalAlignment="Top" Width="71" IsDefault="True" IsEnabled="False"/>
+        <Button x:Name="btnCancel" Content="Cancel" HorizontalAlignment="Left" Height="20" Margin="214,40,0,0" VerticalAlignment="Top" Width="71" IsCancel="True"/>
+
+    </Grid>
+</Window>

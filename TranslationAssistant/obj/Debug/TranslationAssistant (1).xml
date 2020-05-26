@@ -1,0 +1,139 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+TranslationAssistant
+</name>
+</assembly>
+<members>
+<member name="M:TranslationAssistant.MainWindow.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:TranslationAssistant.MainWindow">
+	<summary>
+MainWindow
+</summary>
+</member><member name="M:TranslationAssistant.frmPhrase.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:TranslationAssistant.frmPhrase">
+	<summary>
+frmPhrase
+</summary>
+</member><member name="M:TranslationAssistant.frmProfile.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:TranslationAssistant.frmProfile">
+	<summary>
+frmProfile
+</summary>
+</member><member name="M:TranslationAssistant.Application.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="M:TranslationAssistant.Application.Main">
+	<summary>
+Application Entry Point.
+</summary>
+</member><member name="T:TranslationAssistant.Application">
+	<summary>
+Application
+</summary>
+</member><member name="M:TranslationAssistant.frmProfileName.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:TranslationAssistant.frmProfileName">
+	<summary>
+frmProfileName
+</summary>
+</member><member name="M:TranslationAssistant.frmNew.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:TranslationAssistant.frmNew">
+	<summary>
+frmNew
+</summary>
+</member><member name="P:TranslationAssistant.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:TranslationAssistant.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:TranslationAssistant.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="P:TranslationAssistant.My.MyWpfExtension.Application">
+	<summary>
+ Returns the application object for the running application
+ </summary>
+</member><member name="P:TranslationAssistant.My.MyWpfExtension.Computer">
+	<summary>
+ Returns information about the host computer.
+ </summary>
+</member><member name="P:TranslationAssistant.My.MyWpfExtension.User">
+	<summary>
+ Returns information for the current user.  If you wish to run the application with the current 
+ Windows user credentials, call My.User.InitializeWithWindowsUser().
+ </summary>
+</member><member name="P:TranslationAssistant.My.MyWpfExtension.Log">
+	<summary>
+ Returns the application log. The listeners can be configured by the application's configuration file.
+ </summary>
+</member><member name="P:TranslationAssistant.My.MyWpfExtension.Windows">
+	<summary>
+ Returns the collection of Windows defined in the project.
+ </summary>
+</member><member name="T:TranslationAssistant.My.MyWpfExtension">
+	<summary>
+ Module used to define the properties that are available in the My Namespace for WPF
+ </summary>
+	<remarks></remarks>
+</member><member name="F:TranslationAssistant.HWND__.unused">
+int
+
+</member><member name="M:TranslationAssistant.NativeMethods.OpenClipboard(System.IntPtr)">
+Return Type: BOOL-&gt;int
+hWndNewOwner: HWND-&gt;HWND__*
+
+</member><member name="M:TranslationAssistant.NativeMethods.CloseClipboard">
+Return Type: BOOL-&gt;int
+
+</member><member name="M:TranslationAssistant.NativeMethods.SetClipboardData(System.UInt32,System.IntPtr)">
+Return Type: HANDLE-&gt;void*
+uFormat: UINT-&gt;unsigned int
+hMem: HANDLE-&gt;void*
+
+</member><member name="M:TranslationAssistant.NativeMethods.EmptyClipboard">
+Return Type: BOOL-&gt;int
+
+</member><member name="M:TranslationAssistant.NativeMethods.GlobalLock(System.IntPtr)">
+Return Type: LPVOID-&gt;void*
+hMem: HGLOBAL-&gt;HANDLE-&gt;void*
+
+</member><member name="M:TranslationAssistant.NativeMethods.GlobalUnlock(System.IntPtr)">
+Return Type: BOOL-&gt;int
+hMem: HGLOBAL-&gt;HANDLE-&gt;void*
+
+</member><member name="M:TranslationAssistant.NativeMethods.GlobalAlloc(System.UInt32,System.UInt32)">
+Return Type: HGLOBAL-&gt;HANDLE-&gt;void*
+uFlags: UINT-&gt;unsigned int
+dwBytes: SIZE_T-&gt;ULONG_PTR-&gt;unsigned int
+
+</member><member name="M:TranslationAssistant.NativeMethods.memcpy(System.IntPtr,System.IntPtr,System.UInt32)">
+Return Type: void*
+_Dst: void*
+_Src: void*
+_Size: size_t-&gt;unsigned int
+
+</member>
+</members>
+</doc>

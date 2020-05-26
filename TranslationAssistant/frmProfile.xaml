@@ -1,0 +1,30 @@
+﻿<Window x:Class="frmProfile"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Profile Setting" Height="501.253" Width="345.432" WindowStyle="ToolWindow"
+                FontFamily="Microsoft YaHei"
+        FontSize="11.5"  ResizeMode="NoResize" >
+    <Window.Resources>
+        <Style x:Key="CenterGridHeaderStyle" TargetType="DataGridColumnHeader">
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Label Content="Parse Characters" HorizontalAlignment="Left" Height="29" Margin="10,8,0,0" VerticalAlignment="Top" Width="111"/>
+        <TextBox x:Name="parseCharactersInput" HorizontalAlignment="Left" Height="25" Margin="126,12,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="166" Text="、 。 ？ ！ 「 」" TextOptions.TextFormattingMode="Display" />
+        <Label Content="Profile" HorizontalAlignment="Left" Height="23" Margin="10,44,0,0" VerticalAlignment="Top" Width="101"/>
+        <ComboBox x:Name="comboList" HorizontalAlignment="Left" Height="25" Margin="126,44,0,0" VerticalAlignment="Top" Width="166"/>
+
+        <Button x:Name="btnCreate" Content="Create New" HorizontalAlignment="Left" Height="24" Margin="69,88,0,0" VerticalAlignment="Top" Width="80"/>
+        <Button x:Name="btnDelete" Content="Delete Profile" HorizontalAlignment="Left" Height="24" Margin="179,88,0,0" VerticalAlignment="Top" Width="80"/>
+        <Button x:Name="btnSave" Content="Save" HorizontalAlignment="Left" Margin="126,430,0,0" Width="80" IsDefault="True" Height="19" VerticalAlignment="Top"/>
+        <DataGrid x:Name="dgvPhrases" HorizontalAlignment="Left" Height="298" Margin="10,127,0,0" VerticalAlignment="Top" Width="304" IsManipulationEnabled="True" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding Phrase}" Header="Phrases" Width="0.5*"/>
+                <DataGridTextColumn Binding="{Binding Translation}" Header="Translation" Width="0.5*"/>
+            </DataGrid.Columns>
+
+        </DataGrid>
+    </Grid>
+</Window>
+

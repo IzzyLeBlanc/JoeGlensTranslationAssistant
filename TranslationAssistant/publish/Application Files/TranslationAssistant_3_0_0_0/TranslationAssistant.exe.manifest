@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="TranslationAssistant.exe" version="3.0.0.0" publicKeyToken="f140cacc0cf21e67" language="neutral" processorArchitecture="x86" type="win32" />
+  <description asmv2:iconFile="Resources\TA.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="TranslationAssistant" version="2.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="TranslationAssistant.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+             If you want to change the Windows User Account Control level replace the 
+             requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel element will disable file and registry virtualization. 
+            Remove this element if your application requires this virtualization for backwards
+            compatibility.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Speech" version="11.0.0.0" publicKeyToken="31BF3856AD364E35" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TranslationAssistant.exe" size="146368">
+      <assemblyIdentity name="TranslationAssistant" version="2.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Nmn6R52bmxcr4ghWOtchLf0v9Tux0EKLvzUT1idVdm0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Resources\TA.ico" size="32038">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>P7DJAEk+YCk+eQ3yf6vOHXL2VPQlm9V/OjpHlVe2yTg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="TranslationAssistant.exe.config" size="1672">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>qjz5tWa/iUi1HMcFJmDzTNOz4JZ+HeVhF4QZ9VT0+Io=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of the Windows versions that this application has been tested on and is
+           is designed to work with. Uncomment the appropriate elements and Windows will 
+           automatically selected the most compatible environment. -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=Desktop-PC\Marie" issuerKeyHash="6d487ae58bfa8099a9ba6c644aa25489b0842d29" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>rkeDKtZUu8Ekiu8tJ42kvgBzyBeLL4ziB1KMzTW/OlM=</DigestValue></Reference></SignedInfo><SignatureValue>OFzfLetaQWXVpMq82C3U4a1LXS7If/Onzphrv4BI7FkI6gHXq1T+RD7fLfK/OHHpMOBAgE8fkjGzqF6Pwib16AnNFhKHnQvD1XKu9FYX1Xlb9tTsm/C24rAHQ8lgzaMU9rQCk5YqeaNASf2gq3fBLh1g+/M6roliEuvd4aL5ONk=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>khm/1xIWIhGBYgs2IVDspZbO9qO6lPsbD/rRXDexE47ruX4Ph1hjJ23H3/uvd/vMrPu1O4Ao4o+C3DDIHvPLmTZO+P/SN1NpKniv/mJy70pEgIka8aGpR5l8TB7uk2JrneH6MtBJ9+H1Op/SOo+/k+6ApXZtyKzNDzV58qofuk8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="533abf35cd8c5207e28c2f8b17c87300bea48d272def8a24c1bb54d62a8347ae" Description="" Url=""><as:assemblyIdentity name="TranslationAssistant.exe" version="3.0.0.0" publicKeyToken="f140cacc0cf21e67" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Desktop-PC\Marie</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>chtJKMUzmnWVEJbqzNyhxIYMtPFiJxY5MFqiBqgrzNg=</DigestValue></Reference></SignedInfo><SignatureValue>Z87XYzwvPyS6eF7kMjLLCqmpRZyMiDwtUpNk9V4nkBOy/655/vpYUQx6j51yCxrKsr9oCRU+9p4CUlgbj4lxFpTR22leSP10g2sx97/VGGDrnqXvJCT28KtA+FHBLYylCiBK+ziorOwFtsaJrVlBe8qm8o1Q+MrMeUm9IyoNi0c=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>khm/1xIWIhGBYgs2IVDspZbO9qO6lPsbD/rRXDexE47ruX4Ph1hjJ23H3/uvd/vMrPu1O4Ao4o+C3DDIHvPLmTZO+P/SN1NpKniv/mJy70pEgIka8aGpR5l8TB7uk2JrneH6MtBJ9+H1Op/SOo+/k+6ApXZtyKzNDzV58qofuk8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB2TCCAUKgAwIBAgIQL2qBh6wgtbhF05m8VchmxDANBgkqhkiG9w0BAQsFADArMSkwJwYDVQQDHiAARABlAHMAawB0AG8AcAAtAFAAQwBcAE0AYQByAGkAZTAeFw0xNTEwMDQyMDMyMDlaFw0xNjEwMDQwMjMyMDlaMCsxKTAnBgNVBAMeIABEAGUAcwBrAHQAbwBwAC0AUABDAFwATQBhAHIAaQBlMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCSGb/XEhYiEYFiCzYhUOylls72o7qU+xsP+tFcN7ETjuu5fg+HWGMnbcff+693+8ys+7U7gCjij4LcMMge88uZNk74/9I3U2kqeK/+YnLvSkSAiRrxoalHmXxMHu6TYmud4foy0En34fU6n9I6j7+T7oCldm3IrM0PNXnyqh+6TwIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAC20OgQQ/0kLoyfgPwjJPLRJoR8AI45D7RaSGqEH0RcWppJGA1vWOSlLqqEKvoPBUv1FGBcopVmZHLLVD2UMkcDNhLa9BJccNWybFtxU7AGoG3Ty9WBsj+HmAqYV7HTjp4D9zck9jjilLw4J0drna1T39v/JhlI+FTBtQyUlaeyt</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

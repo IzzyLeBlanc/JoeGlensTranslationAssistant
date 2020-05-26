@@ -1,0 +1,66 @@
+﻿<Window x:Class="MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TranslationAssistant"
+        mc:Ignorable="d"
+        Icon="pack://application:,,,/Resources/TA.ico"
+        Title="Translation Assistant Tool" 
+        Height="686" 
+        Width="566"
+        FontFamily="Microsoft YaHei"
+        FontSize="12.5" 
+        WindowStyle="ThreeDBorderWindow"
+        MinHeight="500"
+        MinWidth="564">
+    <DockPanel LastChildFill="false">
+         <Menu x:Name="menu" Height="23" IsMainMenu="true" DockPanel.Dock="top">
+            <MenuItem Header="File">
+                <MenuItem x:Name="menuNew" Header="New (CTRL+N)" />
+                <MenuItem x:Name="menuOpen" Header="Open (CTRL+O)" />
+                <MenuItem x:Name="menuSave" Header="Save (CTRL+S)" IsEnabled="False" />
+            </MenuItem>
+            <MenuItem Header="Settings">
+                <MenuItem x:Name="menuProfile" Header="Profile (CTRL+P)" />
+                <MenuItem x:Name="menuPhrase" Header="Phrase (CTRL+L)" />
+                <MenuItem x:Name="menuProgress" Header="Show Progress" />
+                <MenuItem x:Name="menuOnTop" Header="Always On Top" />
+                <MenuItem x:Name="menuTTS" Header="Text-To-Speech">
+                    <MenuItem x:Name="menuTTSJP" Header="Japanese" IsEnabled="False"/>
+                    <MenuItem x:Name="menuTTSCN" Header="Chinese" IsEnabled="False"/>
+                </MenuItem>
+            </MenuItem>
+            <MenuItem Header="Special Punctuations">
+                <MenuItem x:Name="menuSingle" Header="Single Qoute : 「　」  (F1)" />
+                <MenuItem x:Name="menuDouble" Header="Double Qoute : 『　』  (F2)" />
+                <MenuItem x:Name="menuLenticular" Header="Lenticular : 【　】  (F3)" />
+                <MenuItem x:Name="menuEllipsis" Header="Ellipsis : …  (F4)" />
+                <MenuItem x:Name="menuWave" Header="Wave Dash : 〜  (F5)"/>
+                <MenuItem x:Name="menuSTitle" Header="Single Title Bracket : 〈 〉  (F6)"/>
+                <MenuItem x:Name="menuDTitle" Header="Double Title Bracket : 《 》 (F7)"/>
+                <MenuItem x:Name="menuDash" Header="Long Dash : ー (F8)"/>
+            </MenuItem>
+            <MenuItem x:Name="menuClipboard" Header="Clipboard (CTRL+I)" IsEnabled="False"/>
+            <MenuItem x:Name="menuAbout" Header="About"/>
+        </Menu>
+        <StatusBar x:Name="statusBar" Height="23" DockPanel.Dock="Bottom" VerticalAlignment="Bottom">
+            <StatusBarItem x:Name="completionStatus" HorizontalAlignment="Left" Content="0% Complete"/>
+            <StatusBarItem x:Name="LineStatus" HorizontalAlignment="Left" Content="Line: xxxx/xxxx"/>
+            <StatusBarItem x:Name="wordCountStatus" HorizontalAlignment="Left" Content="xxxx Words"/>
+            <StatusBarItem x:Name="filesaved" HorizontalAlignment="Right" Content="File Saved"/>
+        </StatusBar>
+        <TextBox x:Name="reviewTop"  TextWrapping="Wrap" Text="HOW TO USE:&#xA;Creating New File for Translations:&#xA;1.)Click File-&gt;New&#xA;2.)Copy Raw from Source and paste it on the textbox&#xA;3.)Click Create&#xA;4.)Save File into the desired location&#xA;5.)Translate&#xA;6.)Once done translating click on Clipboard. Paste on your preferred editor or your blog for final edit and posting&#xA;&#xA;Creating New Profile&#xA;1.)Click Settings-&gt;Profile&#xA;2.)Click New Profile&#xA;3.)Type profile name&#xA;4.)Click OK&#xA;&#xA;Adding Phrases to Profile:&#xA;Option 1:&#xA;1.)Click Settings-&gt;Add Phrase&#xA;2.)Enter Raw on Phrase textbox&#xA;3.)Enter translation of phrase in Translation textbox&#xA;4.)Click Save&#xA;Option 2:&#xA;1.)Click Settings-&gt;Profile&#xA;2.)Add Raw text and Translated Test on their respective boxes at the end of table&#xA;3.)Click Save&#xA;&#xA;Deleting Phrases&#xA;1.)Click Settings-&gt;Profile&#xA;2.)Double-Click phrase you want to delete&#xA;3.)Confirm Delete&#xA;4.)Click Save&#xA;&#xA;Editing Phrases&#xA;1.)Click Settings-&gt;Profile&#xA;2.)Click on a phrase, and click once again (make sure to have a pause between clicks or else it will be considered a double click and will ask to delete an entry) &#xA;3.)Modify entry&#xA;4.)Click Save&#xA;&#xA;Use Spelling Suggestions&#xA;1.)Right-Click the red underlined word&#xA;2.)Choose the correct spelling you meant to type from the context menu&#xA;&#xA;Adding to Custom Dictionary&#xA;1.)Highlight word to add to custom dictionary (Double click on the word)&#xA;2.)Press CTRL+J and confirm the action or Right-Click and Add To Dictionary&#xA;&#xA;Special Punctuations&#xD;&#xA;1.) You can click on the Special Punctuations menu to insert the desired punctation or press the corresponding Function key (F1 - F5)" DockPanel.Dock="Top" Margin="5" Height="320" IsReadOnly="True" VerticalScrollBarVisibility="Visible" />
+        <TextBox x:Name="currentRawLine"  Height="52" TextWrapping="Wrap" Margin="5" DockPanel.Dock="Top" IsReadOnly="True" VerticalScrollBarVisibility="Visible" IsUndoEnabled="False"/>
+        <DockPanel DockPanel.Dock="Top" FocusManager.IsFocusScope="True">
+            <TextBox x:Name="currentTranslatedLine"  Height="52" TextWrapping="Wrap" Margin="5" DockPanel.Dock="Top" SpellCheck.IsEnabled="True" VerticalScrollBarVisibility="Visible">
+                <TextBox.ContextMenu>
+                    <ContextMenu >
+                        <MenuItem>dummy</MenuItem>
+                    </ContextMenu>
+                </TextBox.ContextMenu>
+            </TextBox>
+            <TextBox x:Name="reviewBottom" Height="137"  TextWrapping="Wrap" Margin="5" DockPanel.Dock="Top" IsReadOnly="True" VerticalScrollBarVisibility="Visible" Text="NAVIGATION CONTROLS:&#xA;ENTER Key or PgDn Key  = Move down next sentence.&#xA;PgUp Key = Move up to previous sentence&#xA;CTRL+Left Key = Highlight previous parsed phrase in a sentence, if this was the first parsed phrase it will revert the sentence to original raw if there was any glossary swapping done&#xA;CTRL+Right Key = Highlight next parsed phrase in a sentence, if this was the original raw that was reverted from a glossary swap it will swap any glossary terms&#xA;CTRL+Home Key = Go to the the first line&#xA;CTRL+End Key = Go to the most recent un-translated sentence"/>
+        </DockPanel>
+    </DockPanel>
+</Window>

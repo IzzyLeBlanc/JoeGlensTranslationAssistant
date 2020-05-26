@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <configSections>
+        <sectionGroup name="userSettings" type="System.Configuration.UserSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" >
+            <section name="TranslationAssistant.MySettings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+        </sectionGroup>
+    </configSections>
+    <startup> 
+        <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.5" />
+    </startup>
+    <userSettings>
+        <TranslationAssistant.MySettings>
+            <setting name="ParseChar" serializeAs="String">
+                <value>、 。 ？ ！ 「 」</value>
+            </setting>
+            <setting name="ProfileUsed" serializeAs="String">
+                <value>Default</value>
+            </setting>
+        </TranslationAssistant.MySettings>
+    </userSettings>
+</configuration>
